@@ -1,6 +1,6 @@
-## Welcome to Buy From Australia website (buyfromau.com)
+## Welcome to Buy From Australia website
 
-“We’re working hard to make this website available soon. You will then find a new design and our new collection!
+We’re working hard to make this website available soon. You will then find a new design and our new collection!
 
-Until then bear with us.”
+Until then please bear with us.
 
