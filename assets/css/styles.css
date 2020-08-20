@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+hr{
+    margin: 7px 0;
+    border: 0.5px solid rgba(0,0,0,.1);
+}
+
+
+
+/*----- Go To Top Button Start -----*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #26ABFF;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#myBtn:hover {
+    background-color: #555;
+    transition: 0.4s;
+    color: #26ABFF;
+}
+
+/*----- Go To Top Button End -----*/
+
+
+
+/*----- Top Bar Start -----*/
+
+.top-bar-section{
+    background-color: #000000;
+    /* height: 42px; */
+}
+
+.top-bar-left{}
+
+.top-bar-left ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 12px 0;
+}
+
+.top-bar-left ul li{
+    display: inline-block;
+}
+
+.top-bar-left ul li a{
+    margin-right: 18px;
+    color: #26ABFF;
+    text-decoration: none;
+}
+
+.top-bar-left ul li i{
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.top-bar-right{}
+
+.top-bar-right ul{
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 0;
+    padding: 12px 0;
+}
+
+.top-bar-right ul li{
+    display: inline-block;
+}
+
+.top-bar-right ul li a{
+    margin: 0 4px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.top-bar-right ul li a i{
+    color: #ffffff;
+}
+
+.top-bar-right ul li a i:hover{
+    color: #26ABFF;
+    transition: 0.6s;
+}
+
+/*----- Top Bar End -----*/
+
+
+
+/*----- Navigation Start -----*/
+
+/* .nav-fixed{
+    top: 42px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+} */
+.logo{
+    width: 25%;
+    display: inline-block;
+}
+.logo-img{
+    width: 100%;
+}
+.website-title{
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: #26ABFF;
+    text-transform: uppercase;
+}
+
+
+.navbar-custom{}
+.navbar-button{
+    border: 2px solid #26ABFF !important;
+}
+.navbar-menu-icon{
+    background-image: none !important;
+}
+.navbar-menu-icon i{
+    padding: 5px 0;
+    color: #26ABFF;
+}
+.navbar-custom ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.navbar-custom ul li{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.navbar-custom ul li a{
+    color: #6e6e6e !important;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 23px 15px;
+    position: relative;
+    z-index: 99;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.navbar-custom ul li a:hover{
+    color: #26ABFF !important;
+    border-bottom: 3px solid #26ABFF;
+    border-top: 3px solid #26ABFF;
+    padding: 10px 0;
+    transition: 0.4s;
+}
+.nav-icon{
+    color: #26ABFF;
+}
+
+/*----- Navigation End -----*/
+
+
+
+/*----- Slider (Home) Start -----*/
+
+.nivo-caption{
+    display: none !important;
+}
+
+/*----- Slider (Home) End -----*/
+
+
+
+/*----- About Us (Home) Start -----*/
+
+#about-us-home-section,
+#wide-range-product-section {
+    margin: 40px 0;
+    padding: 40px 0;
+}
+.about-us-home-vdo{}
+.about-us-home-content{}
+.about-us-home-content h2{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #444444;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.about-us-home-content hr{
+    border: 1.5px solid #26abff94;
+    width: 30%;
+}
+.about-us-home-content p{
+    font-size: 15px;
+    line-height: 35px;
+    text-align: justify;
+    color: #5a5d62;
+    font-family: 'Raleway', sans-serif;
+}
+.about-us-home-content a{
+    color: #26ABFF;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.about-us-home-content a:hover{
+    color: #5a5d62;
+}
+
+/*----- About Us (Home) End -----*/
+
+
+
+
+/*----- Product (Home) Start -----*/
+
+.wide-range-product-header{
+    border-right: 3px solid #26abff94;
+    /* width: 100%; */
+    height: 100%;
+}
+.wide-range-product-header h2{
+    font-size: 24px;
+    line-height: 45px;
+    padding: 25px 0px;
+    color: #444444;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.wide-range-product-content{}
+.wide-range-product-content p{
+    font-size: 15px;
+    line-height: 35px;
+    text-align: justify;
+    color: #5a5d62;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+
+
+.product-category{
+    margin-top: 40px;
+}
+.product-category-items-link{
+    transition: 0.4s ease;
+}
+.product-category-items-link:hover{
+    transform: scale(1.08);
+}
+.product-category-items-link a{
+    text-decoration: none;
+}
+.product-category-item{
+    background-color: #444444;
+    padding: 20px;
+    margin: 25px 10px;
+    box-shadow: 4px 4px 8px #444444;
+}
+.product-category-item img{
+    width: 100%;
+}
+.product-category-item h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #26ABFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*----- Product (Home) End -----*/
+
+
+/* .joinus-container{
+    background-image: url(../images/joinus/joinus-3.png);
+    background-size: cover;
+    padding: 100px 0;
+}
+.join-us{
+    background-color: #343a40cc;
+    padding: 40px 120px;
+    border: 15px solid #343a40;
+    text-align: center;
+}
+.join-us h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+.join-us hr{
+    border: 1.5px solid #26ABFF;
+}
+.joinus-content{
+    margin-top: 30px;
+}
+.joinus-content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.joinus-content p a{
+    color: #fff;
+    text-decoration: none;
+}
+.joinus-content p a:hover{
+    color: #26ABFF;
+} */
+
+
+/*----- Contact Us (Home) Start -----*/
+
+.contact-us-home-container{
+    background-image: url(../images/joinus/joinus-3.png);
+    background-size: cover;
+    padding: 50px 0;
+}
+.contact-us-home-content{}
+.contact-us-home-content hr{
+    border: 1.5px solid #26abff94;
+}
+.contact-us-home-content p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.contact-us-home-header{
+    margin-bottom: 15px;
+}
+.contact-us-home-header h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-us-home-details{
+    margin-top: 30px;
+}
+.contact-us-home-details p{
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+
+.contact-us-form{
+    background-color: #0000008c;
+    padding: 50px;
+}
+.contact-form{
+    font-family: 'Raleway', sans-serif;
+}
+.contact-form label{
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.contact-form input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #3A3C4C;
+    color: #ffffff;
+}
+  
+.contact-form input[type=submit] {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+  
+.contact-form input[type=submit]:hover {
+    background-color: #26ABFF;
+    border: 1px solid #26ABFF;
+    transition: 0.4s;
+}
+
+/*----- Contact Us (Home) End -----*/
+
+
+
+/*----- Footer Start -----*/
+
+.footer{}
+.footer-top{
+    background-color: #1E1E1E;
+    border-top: 3px solid #26ABFF;
+    padding: 40px;
+}
+.footer-top-content{}
+.footer-top-content h4{
+    color: #26ABFF;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.footer-top-content p{
+    color: #cccccc;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    text-align: justify;
+}
+.footer-top-content p a{
+    color: #26ABFF;
+    text-decoration: none;
+}
+.footer-top-content p a:hover{
+    color: #cccccc;
+}
+.footer-top-content ul{
+    list-style-type: none;
+}
+.footer-top-content ul li{
+    margin: 15px 0;
+    color: #cccccc;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-top-content ul li i{
+    margin-right: 6px;
+    color: #26ABFF;
+}
+.footer-top-content ul li a{
+    color: #cccccc;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+.footer-top-content ul li a:hover{
+    color: #ffffff;
+}
+.social-ul{
+    display: inline-flex;
+}
+.social-li{
+    margin: 0 !important;
+}
+.facebook{
+    color: #4A5396 !important;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.twitter{
+    color: #7DA7EA !important;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.instagram{
+    color: #C1356E !important;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.linkedin{
+    color: #4971A5 !important;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.youtube{
+    color: #D92424 !important;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+
+
+
+.footer-bottom{
+    background-color: #000000;
+    padding: 15px 0;
+}
+.copyright{}
+.copyright p{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.copyright p a{
+    text-decoration: none;
+    color: #26ABFF;
+    font-weight: 600;
+}
+.web-solution{}
+.web-solution p{
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: right;
+}
+.web-solution p a{
+    text-decoration: none;
+    color: #26ABFF;
+    font-weight: 600;
+}
+
+/*----- Footer End -----*/
+
+
+
+/*----- Responsive Design Start -----*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .top-bar-left ul {
+        padding: 8px 0 2px 0;
+        text-align: center;
+    }
+    .top-bar-right ul {
+        padding: 2px 0 8px 0;
+        text-align: center;
+    }
+    .logo {
+        width: 20%;
+    }
+    .website-title {
+        font-size: 20px;
+    }
+    .navbar-light .navbar-brand {
+        display: contents;
+    }
+    .navbar-custom ul {
+        text-align: center;
+    }
+    .about-us-home-content {
+        margin-top: 20px;
+    }
+    .about-us-home-content hr {
+        width: 100%;
+    }
+    .wide-range-product-header {
+        border-bottom: 3px solid #26abff94;
+        border-right: none;
+    }
+    .wide-range-product-header h2 {
+        padding: 25px 0px 10px 0;
+    }
+    .wide-range-product-content p {
+        margin-top: 10px;
+    }
+    .contact-us-form {
+        background-color: #0000008c;
+        padding: 50px;
+        margin-top: 25px;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .web-solution p {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+/*----- Responsive Design End -----*/
+
+
+
+
+
+
